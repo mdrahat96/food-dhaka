@@ -40,3 +40,14 @@ section{
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.my{
+    text-align: center;
+    font-weight: 600;
+}
+
+.once{
+    padding-inline: 300px;
+}
+
+
