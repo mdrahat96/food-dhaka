@@ -1,5 +1,6 @@
 body{
     font-family: 'Otomanopee One', sans-serif;
+    padding: 0%;
 }
 
 h1{
@@ -12,7 +13,7 @@ h1{
 
 section{
     display: flex;
-    margin: 8git0px;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -33,3 +34,9 @@ section{
     font-weight: 700px;
 }
 
+
+.about-me{
+    background-image: url(images/Frame56.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
