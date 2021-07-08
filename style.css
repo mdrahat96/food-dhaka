@@ -1,3 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-image: linear-gradient(blue, tomato);
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
 body{
     font-family: 'Otomanopee One', sans-serif;
     padding: 0%;
@@ -9,6 +46,7 @@ h1{
 
 .orange-color{
     color: orange;
+    
 }
 
 .fix-con{
@@ -29,7 +67,7 @@ h1{
 .order-button{
     text-decoration: none;
     background-image: linear-gradient(blue, tomato);
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 50px;
     color: white;
     font-weight: 700px;
@@ -42,6 +80,10 @@ h1{
     background-position: center;
 }
 
+.recepie{
+    text-align: center;
+    padding: 200px;
+}
 
 .food-item{
     width: 23%;
